@@ -2,11 +2,11 @@ export default {
   /**
    * basic Information
    */
-  title: `jeong-min.com`,
-  description: `개발자 단민`,
+  title: `알파카 잡담방`,
+  description: `알파카 이모저모`,
   language: `ko`,
-  siteUrl: `https://jeong-min.com/`,
-  ogImage: `/og-image.png`, // Path to your in the 'static' folder
+  siteUrl: `https://cmj7271.github.io`,
+  ogImage: `og-image.png`, // Path to your in the 'static' folder
 
   /**
    * comments setting
@@ -21,22 +21,22 @@ export default {
    * introduce yourself
    */
   author: {
-    name: `이정민`,
-    nickname: `단민`,
-    stack: ['Frontend', 'React', 'Typescript'],
+    name: `천민재`,
+    nickname: `알파카`,
+    stack: ['backend', 'spring', 'go-lang'],
     bio: {
-      email: `ljm991108@gmail.com`,
-      residence: 'Seoul, South Korea',
-      bachelorDegree: 'Kyunghee Univ. Computer Engineering (2018.03-2022.02)',
+      email: `cmjcmj1011@gmail.com`,
+      residence: 'Suwon, South Korea',
+      bachelorDegree: 'Hongik Univ. Computer Engineering (2023.03~ )',
     },
     social: {
-      github: `https://github.com/danmin20`,
-      linkedIn: `https://www.linkedin.com/in/jeonming-lee/`,
-      resume: `https://www.figma.com/file/dtkCl6G7G5DVe18DN2LWny/%EC%9D%B4%EC%A0%95%EB%AF%BC-%EC%9D%B4%EB%A0%A5%EC%84%9C?node-id=0%3A1`,
+      github: `https://github.com/cmj7271`,
+      linkedIn: `https://cmj7271.github.io`,
+      resume: `https://cmj7271.github.io`,
     },
     dropdown: {
-      tistory: 'https://danminblog.tistory.com/',
-      velog: 'https://velog.io/@danmin20',
+      tistory: 'https://open-alpaca.tistory.com/',
+      velog: ``,
     },
   },
 
@@ -45,12 +45,12 @@ export default {
    */
   featured: [
     {
-      title: 'category1',
-      category: 'featured-category1',
+      title: 'AI-generated',
+      category: 'featured-AI-generated',
     },
     {
-      title: 'category2',
-      category: 'featured-category2',
+      title: 'dev',
+      category: 'featured-dev',
     },
   ],
 
@@ -60,26 +60,10 @@ export default {
   timestamps: [
     {
       category: 'Career',
-      date: '2022.01.04 - NOW',
-      en: 'A Corp.',
-      kr: 'A 회사',
-      info: 'A 팀',
-      link: '',
-    },
-    {
-      category: 'Career',
-      date: '2021.01.04 - 2022.01.04',
-      en: 'B Corp.',
-      kr: 'B 회사',
-      info: 'B 팀',
-      link: '',
-    },
-    {
-      category: 'Activity',
-      date: '2023.07 - NOW',
-      en: 'Community',
-      kr: '커뮤니티',
-      info: 'IT 커뮤니티',
+      date: '2023.03.01 - NOW',
+      en: 'Hongik Univ.',
+      kr: '홍익대학교',
+      info: '컴퓨터공학과',
       link: '',
     },
   ],
@@ -89,9 +73,9 @@ export default {
    */
   projects: [
     {
-      title: 'Portfolio',
-      description: '포트폴리오',
-      techStack: ['React', 'Next.js', 'Typescript'],
+      title: 'SomeDay...',
+      description: '언젠가는 하겠지',
+      techStack: ['go-language', 'Typescript'],
       thumbnailUrl: '', // Path to your in the 'assets' folder
       links: {
         post: '',
@@ -108,11 +92,11 @@ export default {
    */
   remittances: {
     toss: {
-      link: 'https://toss.me/danmin',
-      qrCode: 'toss_qr.svg', // Path to your in the 'assets' folder
+      link: '',
+      qrCode: '', // Path to your in the 'assets' folder
     },
     kakaopay: {
-      qrCode: 'kakao_qr.svg', // Path to your in the 'assets' folder
+      qrCode: '', // Path to your in the 'assets' folder
     },
   },
 };

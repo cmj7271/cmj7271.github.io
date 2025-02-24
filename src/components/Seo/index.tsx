@@ -1,5 +1,4 @@
 import { graphql, useStaticQuery } from 'gatsby';
-import PropTypes from 'prop-types';
 import * as React from 'react';
 import { Helmet } from 'react-helmet';
 
@@ -9,7 +8,7 @@ type SeoProps = {
   children?: React.ReactNode;
 };
 
-const Seo: React.FC<SeoProps> = ({ description, title }) => {
+const Seo: React.FC<SeoProps> = ({ description = '', title }) => {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -72,15 +71,6 @@ const Seo: React.FC<SeoProps> = ({ description, title }) => {
       ]}
     />
   );
-};
-
-Seo.defaultProps = {
-  description: ``,
-};
-
-Seo.propTypes = {
-  description: PropTypes.string as React.Validator<string>,
-  title: PropTypes.string.isRequired,
 };
 
 export default Seo;
